@@ -1,7 +1,7 @@
 {
-  "name": "@klaytn/kss",
+  "name": "@kaiachain/kss",
   "version": "1.0.0",
-  "author": "Klaytn Community <developer@klaytn.foundation>",
+  "author": "Klaytn Community <developer@kaiachain.foundation>",
   "license": "GPL-3.0",
   "repository": {
     "type": "git",
@@ -26,13 +26,13 @@
     "yarn": "^1.22.19"
   },
   "keywords": [
-    "klaytn",
-    "klaytn-service-sdk",
+    "kaiachain",
+    "kaia-service-sdk",
     "kss",
-    "@klaytn/kss-cli",
-    "@klayt/kss-bridges-celer",
-    "@klaytn/kss-bridges-wormhole",
-    "@klaytn/kss-dexs",
-    "@klaytn/kss-oracles"
+    "@kaiachain/kss-cli",
+    "@kaiachain/kss-bridges-celer",
+    "@kaiachain/kss-bridges-wormhole",
+    "@kaiachain/kss-dexs",
+    "@kaiachain/kss-oracles"
   ]
 }
