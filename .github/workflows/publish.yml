@@ -26,12 +26,12 @@ jobs:
       - name: testing
         run: npm run test
       - name: Publish package on NPM 📦
-        run: npx pnpm --filter "@klaytn/kss-*" --filter !"@klaytn/kss-cli" -r publish --no-git-check --access public
+        run: npx pnpm --filter "@kaiachain/kss-*" --filter !"@kaiachain/kss-cli" -r publish --no-git-check --access public
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
       - name: Install kss-cli dependencies
         run: cd packages/kss-cli && npm install --force
       - name: Publish kss-cli package on NPM 📦
-        run: npx pnpm --filter "@klaytn/kss-cli" -r publish --no-git-check --access public
+        run: npx pnpm --filter "@kaiachain/kss-cli" -r publish --no-git-check --access public
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
