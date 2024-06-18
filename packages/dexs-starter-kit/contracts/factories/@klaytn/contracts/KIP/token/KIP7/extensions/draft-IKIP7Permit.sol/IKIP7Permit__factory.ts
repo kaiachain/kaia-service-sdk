@@ -7,7 +7,7 @@ import type { Provider } from "@ethersproject/providers";
 import type {
   IKIP7Permit,
   IKIP7PermitInterface,
-} from "../../../../../../../../@klaytn/contracts/KIP/token/KIP7/extensions/draft-IKIP7Permit.sol/IKIP7Permit";
+} from "../../../../../../../../@kaiachain/contracts/KIP/token/KIP7/extensions/draft-IKIP7Permit.sol/IKIP7Permit";
 
 const _abi = [
   {

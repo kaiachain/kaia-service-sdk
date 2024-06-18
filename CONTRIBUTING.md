@@ -1,8 +1,8 @@
 # Contributing Guidelines
 
-Thank you for your interest in contributing to Klaytn. As an open source project, Klaytn is always open to the developer community and we welcome your contribution to help more developer onboarding resources for the Klaytn developer community. Please read the guideline below and follow it in all interactions with the project.
+Thank you for your interest in contributing to Kaia. As an open source project, Kaia is always open to the developer community and we welcome your contribution to help more developer onboarding resources for the Kaia developer community. Please read the guideline below and follow it in all interactions with the project.
 
-## How to Contribute on Klaytn 
+## How to Contribute on Kaia 
 
 1. Read this [contributing document](./CONTRIBUTING.md).
 2. Sign [Contributor Licensing Agreement (CLA)](#contributor-license-agreement-cla).
@@ -22,24 +22,24 @@ There are various ways to contribute and participate. Please read the guidelines
 
 ### Issues and Bugs
 
-If you find a bug or other issues in Klaytn, please [submit an issue](https://github.com/klaytn/klaytn-service-sdk/issues). Before submitting an issue, please invest some extra time to figure out that:
+If you find a bug or other issues in Kaia, please [submit an issue](https://github.com/kaiachain/kaia-service-sdk/issues). Before submitting an issue, please invest some extra time to figure out that:
 
 - The issue is not a duplicate issue.
-- The issue has not been fixed in the latest release of klaytn-service-sdk.
-Please do not use the issue tracker for personal support requests. Use developer@klaytn.foundation for the personal support requests.
+- The issue has not been fixed in the latest release of kaia-service-sdk.
+Please do not use the issue tracker for personal support requests. Use developer@kaia.io for the personal support requests.
 
 When you report a bug, please make sure that your report has the following information.
 - Steps to reproduce the issue.
 - A clear and complete description of the issue.
 - Code and/or screen captures are highly recommended.
 
-After confirming your report meets the above criteria, [submit the issue](https://github.com/klaytn/klaytn-service-sdk/issues). Please use [labels](#usage-of-labels) to categorize your issue.
+After confirming your report meets the above criteria, [submit the issue](https://github.com/kaiachain/kaia-service-sdk/issues). Please use [labels](#usage-of-labels) to categorize your issue.
 
 ### Feature Requests
 
-You can also use the [issue tracker](https://github.com/klaytn/klaytn-service-sdk/issues) to request a new feature or enhancement. Note that any code contribution without an issue link will not be accepted. 
+You can also use the [issue tracker](https://github.com/kaiachain/kaia-service-sdk/issues) to request a new feature or enhancement. Note that any code contribution without an issue link will not be accepted. 
 
-Please submit an issue explaining your proposal first so that the Klaytn developer community can fully understand and discuss the idea. Please use [labels](#usage-of-labels) for your feature request as well.
+Please submit an issue explaining your proposal first so that the Kaia developer community can fully understand and discuss the idea. Please use [labels](#usage-of-labels) for your feature request as well.
 
 #### Usage of Labels
 

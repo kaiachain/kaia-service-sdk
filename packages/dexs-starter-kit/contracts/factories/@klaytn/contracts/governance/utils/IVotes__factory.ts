@@ -7,7 +7,7 @@ import type { Provider } from "@ethersproject/providers";
 import type {
   IVotes,
   IVotesInterface,
-} from "../../../../../@klaytn/contracts/governance/utils/IVotes";
+} from "../../../../../@kaiachain/contracts/governance/utils/IVotes";
 
 const _abi = [
   {

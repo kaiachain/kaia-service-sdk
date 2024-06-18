@@ -7,7 +7,7 @@ import type { Provider } from "@ethersproject/providers";
 import type {
   KIP7Votes,
   KIP7VotesInterface,
-} from "../../../../../../../@klaytn/contracts/KIP/token/KIP7/extensions/KIP7Votes";
+} from "../../../../../../../@kaiachain/contracts/KIP/token/KIP7/extensions/KIP7Votes";
 
 const _abi = [
   {

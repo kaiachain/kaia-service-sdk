@@ -1,4 +1,4 @@
-[@klaytn/kss-dexs](../README.md) / [Modules](../modules.md) / Farming
+[@kaiachain/kss-dexs](../README.md) / [Modules](../modules.md) / Farming
 
 # Class: Farming
 
@@ -41,7 +41,7 @@
 
 #### Defined in
 
-[Farming.ts:7](https://github.com/klaytn/klaytn-service-sdk/blob/d936278/packages/dexs-starter-kit/core/Farming.ts#L7)
+[Farming.ts:7](https://github.com/kaiachain/kaia-service-sdk/blob/d936278/packages/dexs-starter-kit/core/Farming.ts#L7)
 
 ## Properties
 
@@ -51,7 +51,7 @@
 
 #### Defined in
 
-[Farming.ts:5](https://github.com/klaytn/klaytn-service-sdk/blob/d936278/packages/dexs-starter-kit/core/Farming.ts#L5)
+[Farming.ts:5](https://github.com/kaiachain/kaia-service-sdk/blob/d936278/packages/dexs-starter-kit/core/Farming.ts#L5)
 
 ## Methods
 
@@ -82,7 +82,7 @@ A function that encodes all the details required to create a new LP farming pool
 
 #### Defined in
 
-[Farming.ts:88](https://github.com/klaytn/klaytn-service-sdk/blob/d936278/packages/dexs-starter-kit/core/Farming.ts#L88)
+[Farming.ts:88](https://github.com/kaiachain/kaia-service-sdk/blob/d936278/packages/dexs-starter-kit/core/Farming.ts#L88)
 
 ___
 
@@ -107,7 +107,7 @@ A function to deposit given amount of LP token in given LP Farming pool.
 
 #### Defined in
 
-[Farming.ts:17](https://github.com/klaytn/klaytn-service-sdk/blob/d936278/packages/dexs-starter-kit/core/Farming.ts#L17)
+[Farming.ts:17](https://github.com/kaiachain/kaia-service-sdk/blob/d936278/packages/dexs-starter-kit/core/Farming.ts#L17)
 
 ___
 
@@ -131,7 +131,7 @@ A function to emergency withdraw funds from given LP farming pool.
 
 #### Defined in
 
-[Farming.ts:47](https://github.com/klaytn/klaytn-service-sdk/blob/d936278/packages/dexs-starter-kit/core/Farming.ts#L47)
+[Farming.ts:47](https://github.com/kaiachain/kaia-service-sdk/blob/d936278/packages/dexs-starter-kit/core/Farming.ts#L47)
 
 ___
 
@@ -149,7 +149,7 @@ A getter function for Farming contract's insstance
 
 #### Defined in
 
-[Farming.ts:122](https://github.com/klaytn/klaytn-service-sdk/blob/d936278/packages/dexs-starter-kit/core/Farming.ts#L122)
+[Farming.ts:122](https://github.com/kaiachain/kaia-service-sdk/blob/d936278/packages/dexs-starter-kit/core/Farming.ts#L122)
 
 ___
 
@@ -175,7 +175,7 @@ A getter function to fetch instance of DexPair contract.
 
 #### Defined in
 
-[Farming.ts:133](https://github.com/klaytn/klaytn-service-sdk/blob/d936278/packages/dexs-starter-kit/core/Farming.ts#L133)
+[Farming.ts:133](https://github.com/kaiachain/kaia-service-sdk/blob/d936278/packages/dexs-starter-kit/core/Farming.ts#L133)
 
 ___
 
@@ -203,7 +203,7 @@ A function that encodes all the details required to grant minter role to Farming
 
 #### Defined in
 
-[Farming.ts:110](https://github.com/klaytn/klaytn-service-sdk/blob/d936278/packages/dexs-starter-kit/core/Farming.ts#L110)
+[Farming.ts:110](https://github.com/kaiachain/kaia-service-sdk/blob/d936278/packages/dexs-starter-kit/core/Farming.ts#L110)
 
 ___
 
@@ -232,7 +232,7 @@ A function that encodes all the details required to update / set LP farming pool
 
 #### Defined in
 
-[Farming.ts:99](https://github.com/klaytn/klaytn-service-sdk/blob/d936278/packages/dexs-starter-kit/core/Farming.ts#L99)
+[Farming.ts:99](https://github.com/kaiachain/kaia-service-sdk/blob/d936278/packages/dexs-starter-kit/core/Farming.ts#L99)
 
 ___
 
@@ -261,7 +261,7 @@ A function that encodes all the details required to update bonusMultiplier of gi
 
 #### Defined in
 
-[Farming.ts:65](https://github.com/klaytn/klaytn-service-sdk/blob/d936278/packages/dexs-starter-kit/core/Farming.ts#L65)
+[Farming.ts:65](https://github.com/kaiachain/kaia-service-sdk/blob/d936278/packages/dexs-starter-kit/core/Farming.ts#L65)
 
 ___
 
@@ -289,7 +289,7 @@ A function that encodes all the details required to update rewardPerBlock of Far
 
 #### Defined in
 
-[Farming.ts:75](https://github.com/klaytn/klaytn-service-sdk/blob/d936278/packages/dexs-starter-kit/core/Farming.ts#L75)
+[Farming.ts:75](https://github.com/kaiachain/kaia-service-sdk/blob/d936278/packages/dexs-starter-kit/core/Farming.ts#L75)
 
 ___
 
@@ -314,4 +314,4 @@ A function to withdraw LP tokens from given LP farming pool
 
 #### Defined in
 
-[Farming.ts:33](https://github.com/klaytn/klaytn-service-sdk/blob/d936278/packages/dexs-starter-kit/core/Farming.ts#L33)
+[Farming.ts:33](https://github.com/kaiachain/kaia-service-sdk/blob/d936278/packages/dexs-starter-kit/core/Farming.ts#L33)

@@ -6,30 +6,30 @@ Make sure you've read the [Prerequisites](./Prerequisites.md) section to ensure 
 
 ## Liquidity
 ```js
-import { Liquidity } from '@klaytn/kss-dexs'
+import { Liquidity } from '@kaiachain/kss-dexs'
 ```
 
 ## Swap
 ```js
-import { Swap } from '@klaytn/kss-dexs'
+import { Swap } from '@kaiachain/kss-dexs'
 ```
 
 ## Farming
 ```js
-import { Farming } from '@klaytn/kss-dexs'
+import { Farming } from '@kaiachain/kss-dexs'
 ```
 
 ## Staking
 ```js
-import { Staking } from '@klaytn/kss-dexs'
+import { Staking } from '@kaiachain/kss-dexs'
 ```
 
 ## Multisig
 ```js
-import { Multisig } from '@klaytn/kss-dexs'
+import { Multisig } from '@kaiachain/kss-dexs'
 ```
 
 ## Config
 ```js
-import { Config } from '@klaytn/kss-dexs'
+import { Config } from '@kaiachain/kss-dexs'
 ```

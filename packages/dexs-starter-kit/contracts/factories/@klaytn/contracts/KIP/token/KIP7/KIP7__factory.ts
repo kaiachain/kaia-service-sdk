@@ -7,7 +7,7 @@ import type { PromiseOrValue } from "../../../../../../common";
 import type {
   KIP7,
   KIP7Interface,
-} from "../../../../../../@klaytn/contracts/KIP/token/KIP7/KIP7";
+} from "../../../../../../@kaiachain/contracts/KIP/token/KIP7/KIP7";
 
 const _abi = [
   {

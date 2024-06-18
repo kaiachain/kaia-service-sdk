@@ -1,4 +1,4 @@
-[@klaytn/kss-dexs](../README.md) / [Modules](../modules.md) / Config
+[@kaiachain/kss-dexs](../README.md) / [Modules](../modules.md) / Config
 
 # Class: Config
 
@@ -40,7 +40,7 @@
 
 #### Defined in
 
-[Config.ts:12](https://github.com/klaytn/klaytn-service-sdk/blob/d936278/packages/dexs-starter-kit/core/Config.ts#L12)
+[Config.ts:12](https://github.com/kaiachain/kaia-service-sdk/blob/d936278/packages/dexs-starter-kit/core/Config.ts#L12)
 
 ___
 
@@ -50,7 +50,7 @@ ___
 
 #### Defined in
 
-[Config.ts:13](https://github.com/klaytn/klaytn-service-sdk/blob/d936278/packages/dexs-starter-kit/core/Config.ts#L13)
+[Config.ts:13](https://github.com/kaiachain/kaia-service-sdk/blob/d936278/packages/dexs-starter-kit/core/Config.ts#L13)
 
 ___
 
@@ -60,7 +60,7 @@ ___
 
 #### Defined in
 
-[Config.ts:15](https://github.com/klaytn/klaytn-service-sdk/blob/d936278/packages/dexs-starter-kit/core/Config.ts#L15)
+[Config.ts:15](https://github.com/kaiachain/kaia-service-sdk/blob/d936278/packages/dexs-starter-kit/core/Config.ts#L15)
 
 ___
 
@@ -70,7 +70,7 @@ ___
 
 #### Defined in
 
-[Config.ts:11](https://github.com/klaytn/klaytn-service-sdk/blob/d936278/packages/dexs-starter-kit/core/Config.ts#L11)
+[Config.ts:11](https://github.com/kaiachain/kaia-service-sdk/blob/d936278/packages/dexs-starter-kit/core/Config.ts#L11)
 
 ___
 
@@ -80,7 +80,7 @@ ___
 
 #### Defined in
 
-[Config.ts:14](https://github.com/klaytn/klaytn-service-sdk/blob/d936278/packages/dexs-starter-kit/core/Config.ts#L14)
+[Config.ts:14](https://github.com/kaiachain/kaia-service-sdk/blob/d936278/packages/dexs-starter-kit/core/Config.ts#L14)
 
 ## Methods
 
@@ -104,7 +104,7 @@ A getter function to get WKLAY contract's address
 
 #### Defined in
 
-[Config.ts:59](https://github.com/klaytn/klaytn-service-sdk/blob/d936278/packages/dexs-starter-kit/core/Config.ts#L59)
+[Config.ts:59](https://github.com/kaiachain/kaia-service-sdk/blob/d936278/packages/dexs-starter-kit/core/Config.ts#L59)
 
 ___
 
@@ -129,7 +129,7 @@ A function to initialize instance of DexPair contract.
 
 #### Defined in
 
-[Config.ts:50](https://github.com/klaytn/klaytn-service-sdk/blob/d936278/packages/dexs-starter-kit/core/Config.ts#L50)
+[Config.ts:50](https://github.com/kaiachain/kaia-service-sdk/blob/d936278/packages/dexs-starter-kit/core/Config.ts#L50)
 
 ___
 
@@ -157,7 +157,7 @@ A getter function to fetch instance of DexPair contract.
 
 #### Defined in
 
-[Config.ts:39](https://github.com/klaytn/klaytn-service-sdk/blob/d936278/packages/dexs-starter-kit/core/Config.ts#L39)
+[Config.ts:39](https://github.com/kaiachain/kaia-service-sdk/blob/d936278/packages/dexs-starter-kit/core/Config.ts#L39)
 
 ___
 
@@ -184,7 +184,7 @@ A function to initialize the DEX contracts
 
 #### Defined in
 
-[Config.ts:24](https://github.com/klaytn/klaytn-service-sdk/blob/d936278/packages/dexs-starter-kit/core/Config.ts#L24)
+[Config.ts:24](https://github.com/kaiachain/kaia-service-sdk/blob/d936278/packages/dexs-starter-kit/core/Config.ts#L24)
 
 ___
 
@@ -210,7 +210,7 @@ A function to initialize instance of Farming contract.
 
 #### Defined in
 
-[Config.ts:70](https://github.com/klaytn/klaytn-service-sdk/blob/d936278/packages/dexs-starter-kit/core/Config.ts#L70)
+[Config.ts:70](https://github.com/kaiachain/kaia-service-sdk/blob/d936278/packages/dexs-starter-kit/core/Config.ts#L70)
 
 ___
 
@@ -236,7 +236,7 @@ A function to initialize instance of MultiSigWallet contract.
 
 #### Defined in
 
-[Config.ts:92](https://github.com/klaytn/klaytn-service-sdk/blob/d936278/packages/dexs-starter-kit/core/Config.ts#L92)
+[Config.ts:92](https://github.com/kaiachain/kaia-service-sdk/blob/d936278/packages/dexs-starter-kit/core/Config.ts#L92)
 
 ___
 
@@ -262,4 +262,4 @@ A function to initialize instance of Farming contract.
 
 #### Defined in
 
-[Config.ts:81](https://github.com/klaytn/klaytn-service-sdk/blob/d936278/packages/dexs-starter-kit/core/Config.ts#L81)
+[Config.ts:81](https://github.com/kaiachain/kaia-service-sdk/blob/d936278/packages/dexs-starter-kit/core/Config.ts#L81)

@@ -1,5 +1,5 @@
 # Folder Structure
-- **[/contracts](../contracts)** - includes typechains of all the DEX's contracts i.e: [@klaytn/dex-contracts](https://www.npmjs.com/package/@klaytn/dex-contracts)
+- **[/contracts](../contracts)** - includes typechains of all the DEX's contracts i.e: [@kaiachain/dex-contracts](https://www.npmjs.com/package/@kaiachain/dex-contracts)
 - **[/core](../core)** - includes all the integration scripts of DEX-contracts core functionalities
     - **[/Swap.ts](../core/Swap.ts)** - includes all the integration scripts of DEX's Swap contract
     - **[/Liquidity.ts](../core/Liquidity.ts)** - includes all the integration scripts of DEX's Liquidity contract

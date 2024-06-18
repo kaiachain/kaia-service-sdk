@@ -1,4 +1,4 @@
-[@klaytn/kss-dexs](../README.md) / [Modules](../modules.md) / Staking
+[@kaiachain/kss-dexs](../README.md) / [Modules](../modules.md) / Staking
 
 # Class: Staking
 
@@ -43,7 +43,7 @@
 
 #### Defined in
 
-[Staking.ts:7](https://github.com/klaytn/klaytn-service-sdk/blob/d936278/packages/dexs-starter-kit/core/Staking.ts#L7)
+[Staking.ts:7](https://github.com/kaiachain/kaia-service-sdk/blob/d936278/packages/dexs-starter-kit/core/Staking.ts#L7)
 
 ## Properties
 
@@ -53,7 +53,7 @@
 
 #### Defined in
 
-[Staking.ts:5](https://github.com/klaytn/klaytn-service-sdk/blob/d936278/packages/dexs-starter-kit/core/Staking.ts#L5)
+[Staking.ts:5](https://github.com/kaiachain/kaia-service-sdk/blob/d936278/packages/dexs-starter-kit/core/Staking.ts#L5)
 
 ## Methods
 
@@ -77,7 +77,7 @@ A function to deposit given amount of Staked Token in given Staking Pool contrac
 
 #### Defined in
 
-[Staking.ts:26](https://github.com/klaytn/klaytn-service-sdk/blob/d936278/packages/dexs-starter-kit/core/Staking.ts#L26)
+[Staking.ts:26](https://github.com/kaiachain/kaia-service-sdk/blob/d936278/packages/dexs-starter-kit/core/Staking.ts#L26)
 
 ___
 
@@ -106,7 +106,7 @@ A function that encodes all the details required to emergency withdraw funds fro
 
 #### Defined in
 
-[Staking.ts:113](https://github.com/klaytn/klaytn-service-sdk/blob/d936278/packages/dexs-starter-kit/core/Staking.ts#L113)
+[Staking.ts:113](https://github.com/kaiachain/kaia-service-sdk/blob/d936278/packages/dexs-starter-kit/core/Staking.ts#L113)
 
 ___
 
@@ -124,7 +124,7 @@ A function to emergency withdraw funds from given Staking Pool contract.
 
 #### Defined in
 
-[Staking.ts:56](https://github.com/klaytn/klaytn-service-sdk/blob/d936278/packages/dexs-starter-kit/core/Staking.ts#L56)
+[Staking.ts:56](https://github.com/kaiachain/kaia-service-sdk/blob/d936278/packages/dexs-starter-kit/core/Staking.ts#L56)
 
 ___
 
@@ -142,7 +142,7 @@ A getter function to return Staking contract's instance
 
 #### Defined in
 
-[Staking.ts:174](https://github.com/klaytn/klaytn-service-sdk/blob/d936278/packages/dexs-starter-kit/core/Staking.ts#L174)
+[Staking.ts:174](https://github.com/kaiachain/kaia-service-sdk/blob/d936278/packages/dexs-starter-kit/core/Staking.ts#L174)
 
 ___
 
@@ -171,7 +171,7 @@ A function that encodes all the details required to recover token (unintentional
 
 #### Defined in
 
-[Staking.ts:124](https://github.com/klaytn/klaytn-service-sdk/blob/d936278/packages/dexs-starter-kit/core/Staking.ts#L124)
+[Staking.ts:124](https://github.com/kaiachain/kaia-service-sdk/blob/d936278/packages/dexs-starter-kit/core/Staking.ts#L124)
 
 ___
 
@@ -193,7 +193,7 @@ A function that encodes all the details required to stop reward distribution in 
 
 #### Defined in
 
-[Staking.ts:133](https://github.com/klaytn/klaytn-service-sdk/blob/d936278/packages/dexs-starter-kit/core/Staking.ts#L133)
+[Staking.ts:133](https://github.com/kaiachain/kaia-service-sdk/blob/d936278/packages/dexs-starter-kit/core/Staking.ts#L133)
 
 ___
 
@@ -222,7 +222,7 @@ A function that encodes all the details required to update pool limit in given s
 
 #### Defined in
 
-[Staking.ts:144](https://github.com/klaytn/klaytn-service-sdk/blob/d936278/packages/dexs-starter-kit/core/Staking.ts#L144)
+[Staking.ts:144](https://github.com/kaiachain/kaia-service-sdk/blob/d936278/packages/dexs-starter-kit/core/Staking.ts#L144)
 
 ___
 
@@ -250,7 +250,7 @@ A function that encodes all the details required to update reward per block in g
 
 #### Defined in
 
-[Staking.ts:154](https://github.com/klaytn/klaytn-service-sdk/blob/d936278/packages/dexs-starter-kit/core/Staking.ts#L154)
+[Staking.ts:154](https://github.com/kaiachain/kaia-service-sdk/blob/d936278/packages/dexs-starter-kit/core/Staking.ts#L154)
 
 ___
 
@@ -279,7 +279,7 @@ A function that encodes all the details required to update start and end blocks 
 
 #### Defined in
 
-[Staking.ts:165](https://github.com/klaytn/klaytn-service-sdk/blob/d936278/packages/dexs-starter-kit/core/Staking.ts#L165)
+[Staking.ts:165](https://github.com/kaiachain/kaia-service-sdk/blob/d936278/packages/dexs-starter-kit/core/Staking.ts#L165)
 
 ___
 
@@ -303,7 +303,7 @@ A function to withdraw Staked tokens from given Staking pool contract
 
 #### Defined in
 
-[Staking.ts:42](https://github.com/klaytn/klaytn-service-sdk/blob/d936278/packages/dexs-starter-kit/core/Staking.ts#L42)
+[Staking.ts:42](https://github.com/kaiachain/kaia-service-sdk/blob/d936278/packages/dexs-starter-kit/core/Staking.ts#L42)
 
 ___
 
@@ -329,7 +329,7 @@ A function to initiate Staking Factory contract instance
 
 #### Defined in
 
-[Staking.ts:17](https://github.com/klaytn/klaytn-service-sdk/blob/d936278/packages/dexs-starter-kit/core/Staking.ts#L17)
+[Staking.ts:17](https://github.com/kaiachain/kaia-service-sdk/blob/d936278/packages/dexs-starter-kit/core/Staking.ts#L17)
 
 ___
 
@@ -365,4 +365,4 @@ A function that encodes all the details required to deploy a new Staking Pool.
 
 #### Defined in
 
-[Staking.ts:82](https://github.com/klaytn/klaytn-service-sdk/blob/d936278/packages/dexs-starter-kit/core/Staking.ts#L82)
+[Staking.ts:82](https://github.com/kaiachain/kaia-service-sdk/blob/d936278/packages/dexs-starter-kit/core/Staking.ts#L82)

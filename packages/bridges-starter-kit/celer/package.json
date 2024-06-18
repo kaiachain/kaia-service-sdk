@@ -1,5 +1,5 @@
 {
-  "name": "@klaytn/kss-bridges-celer",
+  "name": "@kaiachain/kss-bridges-celer",
   "version": "1.0.0",
   "description": "TypeScript client and use-cases for cBridge",
   "exports": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/klaytn/klaytn-service-sdk.git"
+    "url": "https://github.com/kaiachain/kaia-service-sdk.git"
   },
   "scripts": {
     "test-transfer": "mocha -r ts-node/register test/poolTransfer-test.ts -t 2400000",
@@ -23,19 +23,20 @@
     "lint:fix": "eslint --ext .ts --fix ."
   },
   "keywords": [
-    "klaytn",
+    "kaia",
+    "kaiachain",
     "celer",
     "bridge",
     "pooltransfer",
     "mintcanonicaltoken",
     "kss-bridges-celer"
   ],
-  "author": "Klaytn Community <developer@klaytn.foundation>",
+  "author": "Kaia Community <developer@kaia.io>",
   "license": "GPL-3.0",
   "bugs": {
-    "url": "https://github.com/klaytn/klaytn-service-sdk/issues"
+    "url": "https://github.com/kaiachain/kaia-service-sdk/issues"
   },
-  "homepage": "https://github.com/klaytn/klaytn-service-sdk/blob/main/packages/bridges-starter-kit/celer/README.md",
+  "homepage": "https://github.com/kaiachain/kaia-service-sdk/blob/main/packages/bridges-starter-kit/celer/README.md",
   "dependencies": {
     "axios": "^0.26.1",
     "celer-web-utils": "^1.0.9",

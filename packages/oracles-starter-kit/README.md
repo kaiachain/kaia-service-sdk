@@ -2,7 +2,7 @@
 - [Oracle Starter Kit](#oracle-starter-kit)
   - [Install](#install)
   - [Quick Usage](#quick-usage)
-  - [Setup Hardhat configurations Baobab Klaytn network and variables](#setup-hardhat-configurations-baobab-klaytn-network-and-variables)
+  - [Setup Hardhat configurations Kairos Kaia network and variables](#setup-hardhat-configurations-kairos-kaia-network-and-variables)
     - [1. Hardhat configurations](#1-hardhat-configurations)
     - [2. Environment Variables](#2-environment-variables)
   - [Deploy contracts](#deploy-contracts)
@@ -50,7 +50,7 @@ This is a hardhat project containing contracts and scripts for `Witnet` integrat
 ## Install
 
 ```typescript
-npm install -g @klaytn/kss-cli --force
+npm install -g @kaiachain/kss-cli --force
 ```
 
 ## Quick Usage
@@ -69,22 +69,22 @@ Enter inside the generated folder and install the packages as mentioned
 From there you can run hardhat commands to compile your contracts, deploy those contracts to 
 the network and run their associated unit tests.
 
-## Setup Hardhat configurations Baobab Klaytn network and variables
+## Setup Hardhat configurations Kairos Kaia network and variables
 The default hardhat configurations can be modified in `helper-hardhat-config.json`
-Default configurations of baobab network `1001`.
+Default configurations of kairos network `1001`.
 
 ### 1. Hardhat configurations
 Hardhat configuration variables can be found in `helper-hardhat-config.json` in the root directory. Below is the configuration explaination for `1001` network.
 
-  * `name` - hardhat network name Ex: `baobab`
-  * `witnetPriceRouter` - witnetPriceRouter Address Ex: `0xeD074DA2A76FD2Ca90C1508930b4FB4420e413B0` for Klaytn Testnet. See [WitnetPriceRouter](https://docs.witnet.io/smart-contracts/witnet-data-feeds/addresses/klaytn-price-feeds#klaytn-baobab) for reference.
-  * `witnetRandomness` - witnetRandomness Address. Ex: `0xb4b2e2e00e9d6e5490d55623e4f403ec84c6d33f` for Klaytn Testnet. See [WitnetRandomness Contract Addresses](https://docs.witnet.io/smart-contracts/witnet-randomness-oracle/contract-addresses#klaytn) for reference.
+  * `name` - hardhat network name Ex: `kairos`
+  * `witnetPriceRouter` - witnetPriceRouter Address Ex: `0xeD074DA2A76FD2Ca90C1508930b4FB4420e413B0` for Kaia Kairos Testnet. See [WitnetPriceRouter](https://docs.witnet.io/smart-contracts/witnet-data-feeds/addresses/kaia-price-feeds#kaia-kairos) for reference.
+  * `witnetRandomness` - witnetRandomness Address. Ex: `0xb4b2e2e00e9d6e5490d55623e4f403ec84c6d33f` for Kaia Kairos Testnet. See [WitnetRandomness Contract Addresses](https://docs.witnet.io/smart-contracts/witnet-randomness-oracle/contract-addresses#kaia) for reference.
   
 ### 2. Environment Variables
 We will need to set environment variables by following below steps 
 1. copy `.env.example` file and rename to `.env`
 2. Modify environment variables. Below is the explaination of each variable
-  * `BAOBAB_RPC_URL` - `string` https://api.baobab.klaytn.net:8651/ can be used. its the rpc url of blockchain.
+  * `BAOBAB_RPC_URL` - `string` https://public-en.kairos.node.kaia.io can be used. its the rpc url of blockchain.
   * `PRIVATE_KEY` - `string` This is private key from wallet, ie [MetaMask](https://metamask.io/). This is required for deploying contracts to public networks. 
 
 > IMPORTANT: MAKE SURE YOU DON'T EXPOSE THE KEYS YOU PUT IN THIS `.env` FILE saved in the package node_modules. By that, I mean don't push them to a public repo, and please try to keep them keys you use in development not associated with any real funds. 
@@ -92,7 +92,7 @@ We will need to set environment variables by following below steps
 Don't commit and push any changes to .env files that may contain sensitive information, such as a private key! If this information reaches a public GitHub repository, someone can use it to check if you have any Mainnet funds in that wallet address, and steal them!
 
 > Get some Baobab Testnet KLAY 
-Go to the [Klaytn faucets](https://baobab.wallet.klaytn.foundation/faucet) to get some KLAY to configured private key account.
+Go to the [Kaia faucets](https://kairos.wallet.kaia.io/faucet) to get some KLAY to configured private key account.
 
 ## Deploy contracts
 
@@ -126,7 +126,7 @@ The Witnet Price Feeds consumer contract has one task, to read the latest price 
 
 #### Parameters
 `deployedContractAddress` - `string` Deployed WitnetPriceFeed contract address
-`id` - `string` id is the witnet pricefeed ID. Ex: `0x6cc828d1` for Price-KLAY/USD-6. See [Klaytn Witnet PriceFeeds](https://docs.witnet.io/smart-contracts/witnet-data-feeds/addresses/klaytn-price-feeds#klaytn-baobab) for reference.
+`id` - `string` id is the witnet pricefeed ID. Ex: `0x6cc828d1` for Price-KLAY/USD-6. See [Kaia Witnet PriceFeeds](https://docs.witnet.io/smart-contracts/witnet-data-feeds/addresses/kaia-price-feeds#kaia-kairos) for reference.
 
 #### Returns
   * `price` - price of KLAY/USD. 
@@ -289,7 +289,7 @@ npx witnet-toolkit try-query --from-solidity ./contracts/witnet-requests/<contra
 ```
 
 > **_NOTE:_**  If above tryWitnetQueries is stuck, please try to run command shown in below snapshot `npx witnet-toolkit`, install the binary once in the machine and retry above method
-![WitnetToolkitBinary](https://github.com/klaytn/klaytn-service-sdk/blob/main/packages/oracles-starter-kit/WitnetToolkitBinary.png)
+![WitnetToolkitBinary](https://github.com/kaiachain/kaia-service-sdk/blob/main/packages/oracles-starter-kit/WitnetToolkitBinary.png)
 
 ### Supra Price Feeds
 The Supra Price Feeds consumer contract has one task, to read the latest price of a specified price feed contract
@@ -299,7 +299,7 @@ The Supra Price Feeds consumer contract has one task, to read the latest price o
 ```
 #### Parameters
 `deployedContractAddress` - `string` Deployed SupraValueFeedExample contract address
-`marketpair` - `string` marketpair is the Supra marketpair id. Ex: `btc_usdt`. See [Klaytn Supra PriceFeeds](https://supraoracles.com/docs/get-started/market-pairs#klaytn-chain) for reference.
+`marketpair` - `string` marketpair is the Supra marketpair id. Ex: `btc_usdt`. See [Kaia Supra PriceFeeds](https://supraoracles.com/docs/get-started/market-pairs#kaia-chain) for reference.
 
 
 #### Returns

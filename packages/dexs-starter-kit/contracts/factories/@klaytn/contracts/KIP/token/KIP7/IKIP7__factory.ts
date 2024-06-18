@@ -7,7 +7,7 @@ import type { Provider } from "@ethersproject/providers";
 import type {
   IKIP7,
   IKIP7Interface,
-} from "../../../../../../@klaytn/contracts/KIP/token/KIP7/IKIP7";
+} from "../../../../../../@kaiachain/contracts/KIP/token/KIP7/IKIP7";
 
 const _abi = [
   {

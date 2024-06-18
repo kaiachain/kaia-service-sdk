@@ -1,7 +1,7 @@
 {
-  "name": "@klaytn/kss-oracles",
+  "name": "@kaiachain/kss-oracles",
   "version": "1.0.0",
-  "description": "Hardhat Klaytn Oracles starter kit",
+  "description": "Hardhat Kaia Oracles starter kit",
   "scripts": {
     "help": "hardhat --help",
     "compile": "hardhat compile",
@@ -11,13 +11,14 @@
     "lint": "eslint . --ext .js",
     "lint-fix": "eslint . --fix --ext .js"
   },
-  "author": "Klaytn Community <developer@klaytn.foundation>",
+  "author": "Kaia Community <developer@kaia.io>",
   "license": "MIT",
   "keywords": [
-    "klaytn",
+    "kaia",
+    "kaiachain",
     "oracles",
     "witnet",
-    "klaytn-service-sdk"
+    "kaia-service-sdk"
   ],
   "dependencies": {
     "@nomiclabs/hardhat-ethers": "^2.2.1",

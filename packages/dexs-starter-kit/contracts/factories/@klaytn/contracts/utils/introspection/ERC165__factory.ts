@@ -7,7 +7,7 @@ import type { Provider } from "@ethersproject/providers";
 import type {
   ERC165,
   ERC165Interface,
-} from "../../../../../@klaytn/contracts/utils/introspection/ERC165";
+} from "../../../../../@kaiachain/contracts/utils/introspection/ERC165";
 
 const _abi = [
   {

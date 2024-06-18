@@ -1,13 +1,13 @@
-# Klaytn Service SDK CLI
+# Kaia Service SDK CLI
 
-kss-cli is a command line utility for klaytn service sdk. <br/>
+kss-cli is a command line utility for kaia service sdk. <br/>
 kss-cli supports below features.
-* `Oracles` - Hardhat project containing Witnet integrations with klaytn.
+* `Oracles` - Hardhat project containing Witnet integrations with kaia.
 
 ## Install
 
 ```typescript
-npm install -g @klaytn/kss-cli --force
+npm install -g @kaiachain/kss-cli --force
 ```
 
 ## Quick Usage
@@ -29,7 +29,7 @@ npm install -g @klaytn/kss-cli --force
 
 #### Oracles
 
-To download the Klaytn's integration with witnet oracle hardhat project, please follow below steps
+To download the Kaia's integration with witnet oracle hardhat project, please follow below steps
 
 ```typescript
 > kss-cli oracle init

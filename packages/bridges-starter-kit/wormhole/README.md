@@ -1,5 +1,5 @@
-# Klaytn wormhole starter kit
-- [Klaytn wormhole starter kit](#klaytn-wormhole-starter-kit)
+# Kaia wormhole starter kit
+- [Kaia wormhole starter kit](#kaia-wormhole-starter-kit)
   - [About](#about)
   - [Folder Structure](#folder-structure)
   - [Installation](#installation)
@@ -15,7 +15,7 @@
   - [Reference Docs:](#reference-docs)
 
 ## About
-Wormhole is a communication bridge between Klaytn and other top decentralized finance (DeFi) networks. Existing projects, platforms, and communities are able to move tokenized assets seamlessly across blockchains and benefit from Klaytn's high speed and low cost.
+Wormhole is a communication bridge between Kaia and other top decentralized finance (DeFi) networks. Existing projects, platforms, and communities are able to move tokenized assets seamlessly across blockchains and benefit from Kaia's high speed and low cost.
 
 ## Folder Structure
 
@@ -23,20 +23,20 @@ Wormhole is a communication bridge between Klaytn and other top decentralized fi
 - [use-cases](./use-cases): Ready-to-run code of some use-cases to call the Wormhole Rest APIs.
 
 ## Installation
-`npm install @klaytn/kss-bridges-wormhole --save`
+`npm install @kaiachain/kss-bridges-wormhole --save`
 
 ## Quick Start
 BridgeSDK contains the implementation of the bridge use-cases. 
 CoreBridgeSDK exposes methods of `@certusone/wormhole-sdk` to write custom methods.
 
 ```typescript
-import BridgeSDK from '@klaytn/kss-bridges-wormhole';
-import CoreBridgeSDK from '@klaytn/kss-bridges-wormhole/core';
+import BridgeSDK from '@kaiachain/kss-bridges-wormhole';
+import CoreBridgeSDK from '@kaiachain/kss-bridges-wormhole/core';
 
 or
 
-const BridgeSDK = require('@klaytn/kss-bridges-wormhole');
-const CoreBridgeSDK = require('@klaytn/kss-bridges-wormhole/core');
+const BridgeSDK = require('@kaiachain/kss-bridges-wormhole');
+const CoreBridgeSDK = require('@kaiachain/kss-bridges-wormhole/core');
 ```
 
 You can run following ready-made use-cases to test
@@ -70,14 +70,14 @@ BridgeSDK.attest(config, source, destination)
 
 ### Example
 ```typescript
-const BridgeSDK = require('@klaytn/kss-bridges-wormhole');
-const CoreBridgeSDK = require('@klaytn/kss-bridges-wormhole/core');
+const BridgeSDK = require('@kaiachain/kss-bridges-wormhole');
+const CoreBridgeSDK = require('@kaiachain/kss-bridges-wormhole/core');
 
 const config = { restAddress: "https://wormhole-v2-testnet-api.certus.one" };
 const source = {
   token: "0x0FD3f122A9B6471928B60eeE73bF35D895C4Ee01", // Token to be attested
   privatekey: "source chain private key",
-  rpcUrl: "https://api.baobab.klaytn.net:8651",
+  rpcUrl: "https://public-en.kairos.node.kaia.io",
   coreBridge: "0x1830CC6eE66c84D2F177B94D544967c774E624cA",
   tokenBridge: "0xC7A13BE098720840dEa132D860fDfa030884b09A",
   wormholeChainId: "13" 
@@ -129,14 +129,14 @@ BridgeSDK.transferBasic(config, source, destination, AMOUNT, IS_NATIVE)
 
 ### Example
 ```typescript
-const BridgeSDK = require('@klaytn/kss-bridges-wormhole');
-const CoreBridgeSDK = require('@klaytn/kss-bridges-wormhole/core');
+const BridgeSDK = require('@kaiachain/kss-bridges-wormhole');
+const CoreBridgeSDK = require('@kaiachain/kss-bridges-wormhole/core');
 
 const config = { restAddress: "https://wormhole-v2-testnet-api.certus.one" };
 const source = {
   token: "0x0FD3f122A9B6471928B60eeE73bF35D895C4Ee01", // Token to be attested
   privatekey: "source chain private key",
-  rpcUrl: "https://api.baobab.klaytn.net:8651",
+  rpcUrl: "https://public-en.kairos.node.kaia.io",
   coreBridge: "0x1830CC6eE66c84D2F177B94D544967c774E624cA",
   tokenBridge: "0xC7A13BE098720840dEa132D860fDfa030884b09A",
   wormholeChainId: "13" 

@@ -12,7 +12,7 @@ const MAINNET_RPC_URL =
   process.env.MAINNET_RPC_URL ||
   'https://klaytn.blockpi.network/v1/rpc/public'
 const BAOBAB_RPC_URL =
-  process.env.BAOBAB_RPC_URL || 'https://api.baobab.klaytn.net:8651/'
+  process.env.BAOBAB_RPC_URL || 'https://public-en.kairos.node.kaia.io'
 const PRIVATE_KEY = process.env.PRIVATE_KEY
 const FORKING_BLOCK_NUMBER = process.env.FORKING_BLOCK_NUMBER
 
