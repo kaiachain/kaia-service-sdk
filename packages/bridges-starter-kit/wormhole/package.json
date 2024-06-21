@@ -1,5 +1,5 @@
 {
-  "name": "@klaytn/kss-bridges-wormhole",
+  "name": "@kaiachain/kss-bridges-wormhole",
   "version": "1.0.0",
   "description": "Typescript and Javascript client and use-cases for wormhole",
   "exports": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/klaytn/klaytn-service-sdk.git"
+    "url": "https://github.com/kaiachain/kaia-service-sdk.git"
   },
   "scripts": {
     "test-attest": "ts-node use-cases/attest.ts",
@@ -19,14 +19,15 @@
     "lint:fix": "eslint --ext .ts --fix ."
   },
   "keywords": [
-    "klaytn",
+    "kaia",
+    "kaiachain",
     "wormhole",
     "bridge",
     "attest",
     "transfer",
     "kss-bridges-wormhole"
   ],
-  "author": "Klaytn Community <developer@klaytn.foundation>",
+  "author": "Kaia Community <developer@kaia.io>",
   "license": "GPL-3.0",
   "dependencies": {
     "@certusone/wormhole-sdk": "^0.9.0",

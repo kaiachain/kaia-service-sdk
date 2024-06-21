@@ -1,5 +1,5 @@
-# Klaytn cBridge starter kit
-- [Klaytn cBridge starter kit](#klaytn-cbridge-starter-kit)
+# Kaia cBridge starter kit
+- [Kaia cBridge starter kit](#kaia-cbridge-starter-kit)
   - [About](#about)
   - [Folder Structure](#folder-structure)
   - [Setup](#setup)
@@ -8,8 +8,7 @@
 
 ## About
 cBridge provides a simple liquidity provider experience and high liquidity efficiency for users when they manage their funds in different
-chains with lower costs. Learn more about flow and terminology from this doc:
-[cBridge requirements](https://docs.google.com/document/d/15gVJfiAjzfR9dyz_ad7jQOx5PSPI6p_RanLA6XRLCYU/edit?usp=sharing)
+chains with lower costs.
 
 ## Folder Structure
 
@@ -28,9 +27,9 @@ npm install
 
 ## Overview
 For details information & documentation of each module of this package please refer to the docs linked below.
-- ### [Overview](https://github.com/klaytn/klaytn-service-sdk/blob/main/packages/bridges-starter-kit/celer/docs/Overview.md)
-- ### [ParamsExplanation](https://github.com/klaytn/klaytn-service-sdk/blob/main/packages/bridges-starter-kit/celer/docs/ParamsExplanation.md)
-- ### [Prerequisites.md](https://github.com/klaytn/klaytn-service-sdk/blob/main/packages/bridges-starter-kit/celer/docs/Prerequisites.md)
+- ### [Overview](https://github.com/kaiachain/kaia-service-sdk/blob/main/packages/bridges-starter-kit/celer/docs/Overview.md)
+- ### [ParamsExplanation](https://github.com/kaiachain/kaia-service-sdk/blob/main/packages/bridges-starter-kit/celer/docs/ParamsExplanation.md)
+- ### [Prerequisites.md](https://github.com/kaiachain/kaia-service-sdk/blob/main/packages/bridges-starter-kit/celer/docs/Prerequisites.md)
 
 ## Reference Docs:
 

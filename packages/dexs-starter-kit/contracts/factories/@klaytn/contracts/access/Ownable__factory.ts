@@ -7,7 +7,7 @@ import type { Provider } from "@ethersproject/providers";
 import type {
   Ownable,
   OwnableInterface,
-} from "../../../../@klaytn/contracts/access/Ownable";
+} from "../../../../@kaiachain/contracts/access/Ownable";
 
 const _abi = [
   {

@@ -1,4 +1,4 @@
-[@klaytn/kss-dexs](../README.md) / [Modules](../modules.md) / Liquidity
+[@kaiachain/kss-dexs](../README.md) / [Modules](../modules.md) / Liquidity
 
 # Class: Liquidity
 
@@ -40,7 +40,7 @@
 
 #### Defined in
 
-[Liquidity.ts:8](https://github.com/klaytn/klaytn-service-sdk/blob/d936278/packages/dexs-starter-kit/core/Liquidity.ts#L8)
+[Liquidity.ts:8](https://github.com/kaiachain/kaia-service-sdk/blob/d936278/packages/dexs-starter-kit/core/Liquidity.ts#L8)
 
 ## Properties
 
@@ -50,7 +50,7 @@
 
 #### Defined in
 
-[Liquidity.ts:6](https://github.com/klaytn/klaytn-service-sdk/blob/d936278/packages/dexs-starter-kit/core/Liquidity.ts#L6)
+[Liquidity.ts:6](https://github.com/kaiachain/kaia-service-sdk/blob/d936278/packages/dexs-starter-kit/core/Liquidity.ts#L6)
 
 ___
 
@@ -60,7 +60,7 @@ ___
 
 #### Defined in
 
-[Liquidity.ts:5](https://github.com/klaytn/klaytn-service-sdk/blob/d936278/packages/dexs-starter-kit/core/Liquidity.ts#L5)
+[Liquidity.ts:5](https://github.com/kaiachain/kaia-service-sdk/blob/d936278/packages/dexs-starter-kit/core/Liquidity.ts#L5)
 
 ## Methods
 
@@ -90,7 +90,7 @@ A function to add liquidity to a given pair of tokens (token0 & token1).
 
 #### Defined in
 
-[Liquidity.ts:30](https://github.com/klaytn/klaytn-service-sdk/blob/d936278/packages/dexs-starter-kit/core/Liquidity.ts#L30)
+[Liquidity.ts:30](https://github.com/kaiachain/kaia-service-sdk/blob/d936278/packages/dexs-starter-kit/core/Liquidity.ts#L30)
 
 ___
 
@@ -119,7 +119,7 @@ A function to add liquidity with Klay to a given pair of tokens (token & Klay).
 
 #### Defined in
 
-[Liquidity.ts:54](https://github.com/klaytn/klaytn-service-sdk/blob/d936278/packages/dexs-starter-kit/core/Liquidity.ts#L54)
+[Liquidity.ts:54](https://github.com/kaiachain/kaia-service-sdk/blob/d936278/packages/dexs-starter-kit/core/Liquidity.ts#L54)
 
 ___
 
@@ -137,7 +137,7 @@ A getter function to get WKLAY contract's address
 
 #### Defined in
 
-[Liquidity.ts:134](https://github.com/klaytn/klaytn-service-sdk/blob/d936278/packages/dexs-starter-kit/core/Liquidity.ts#L134)
+[Liquidity.ts:134](https://github.com/kaiachain/kaia-service-sdk/blob/d936278/packages/dexs-starter-kit/core/Liquidity.ts#L134)
 
 ___
 
@@ -164,7 +164,7 @@ A getter function to fetch instance of DexPair contract.
 
 #### Defined in
 
-[Liquidity.ts:125](https://github.com/klaytn/klaytn-service-sdk/blob/d936278/packages/dexs-starter-kit/core/Liquidity.ts#L125)
+[Liquidity.ts:125](https://github.com/kaiachain/kaia-service-sdk/blob/d936278/packages/dexs-starter-kit/core/Liquidity.ts#L125)
 
 ___
 
@@ -182,7 +182,7 @@ A getter function for DEX's Router contract's instance
 
 #### Defined in
 
-[Liquidity.ts:17](https://github.com/klaytn/klaytn-service-sdk/blob/d936278/packages/dexs-starter-kit/core/Liquidity.ts#L17)
+[Liquidity.ts:17](https://github.com/kaiachain/kaia-service-sdk/blob/d936278/packages/dexs-starter-kit/core/Liquidity.ts#L17)
 
 ___
 
@@ -210,7 +210,7 @@ A function to remove liquidity from a given pair of tokens (token0 & token1).
 
 #### Defined in
 
-[Liquidity.ts:76](https://github.com/klaytn/klaytn-service-sdk/blob/d936278/packages/dexs-starter-kit/core/Liquidity.ts#L76)
+[Liquidity.ts:76](https://github.com/kaiachain/kaia-service-sdk/blob/d936278/packages/dexs-starter-kit/core/Liquidity.ts#L76)
 
 ___
 
@@ -238,4 +238,4 @@ A function to remove liquidity from a given pair of tokens (token & klay).
 
 #### Defined in
 
-[Liquidity.ts:101](https://github.com/klaytn/klaytn-service-sdk/blob/d936278/packages/dexs-starter-kit/core/Liquidity.ts#L101)
+[Liquidity.ts:101](https://github.com/kaiachain/kaia-service-sdk/blob/d936278/packages/dexs-starter-kit/core/Liquidity.ts#L101)

@@ -7,7 +7,7 @@ import type { Provider } from "@ethersproject/providers";
 import type {
   IERC165,
   IERC165Interface,
-} from "../../../../../@klaytn/contracts/utils/introspection/IERC165";
+} from "../../../../../@kaiachain/contracts/utils/introspection/IERC165";
 
 const _abi = [
   {

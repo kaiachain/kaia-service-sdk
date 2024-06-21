@@ -1,7 +1,7 @@
-@klaytn/kss-dexs / [Modules](modules.md)
+@kaiachain/kss-dexs / [Modules](modules.md)
 
 # DEX Starter Kit
-This module of Klaytn-SDK includes the integration of [@klaytn/dex-contracts](https://github.com/klaytn/klaytn-dex-contracts).
+This module of Kaia-SDK includes the integration of [@kaiachain/dex-contracts](https://github.com/kaiachain/open-dex-contracts).
 
 # How to setup locally
  `npm install`

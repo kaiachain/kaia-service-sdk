@@ -1,11 +1,11 @@
 {
   "name": "@kaiachain/kss",
   "version": "1.0.0",
-  "author": "Klaytn Community <developer@kaiachain.foundation>",
+  "author": "Kaia Community <developer@kaia.io>",
   "license": "GPL-3.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/klaytn/klaytn-service-sdk.git"
+    "url": "https://github.com/kaiachain/kaia-service-sdk.git"
   },
   "private": true,
   "scripts": {

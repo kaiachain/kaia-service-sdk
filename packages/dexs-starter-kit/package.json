@@ -1,5 +1,5 @@
 {
-  "name": "@klaytn/kss-dexs",
+  "name": "@kaiachain/kss-dexs",
   "version": "1.0.0",
   "description": "Includes dex-contracts integration & use-cases",
   "exports": {
@@ -7,7 +7,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/klaytn/klaytn-service-sdk.git"
+    "url": "https://github.com/kaiachain/kaia-service-sdk.git"
   },
   "scripts": {
     "build": "npx tsc",
@@ -17,7 +17,8 @@
     "docs": "npx typedoc"
   },
   "keywords": [
-    "klaytn",
+    "kaia",
+    "kaiachain",
     "contracts",
     "dex",
     "swap",
@@ -26,7 +27,7 @@
     "pool",
     "kss-dexs"
   ],
-  "author": "Klaytn Community <developer@klaytn.foundation>",
+  "author": "Kaia Community <developer@kaia.io>",
   "license": "MIT",
   "dependencies": {
     "@jest/types": "^29.4.2",

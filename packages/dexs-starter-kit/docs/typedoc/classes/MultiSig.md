@@ -1,4 +1,4 @@
-[@klaytn/kss-dexs](../README.md) / [Modules](../modules.md) / MultiSig
+[@kaiachain/kss-dexs](../README.md) / [Modules](../modules.md) / MultiSig
 
 # Class: MultiSig
 
@@ -37,7 +37,7 @@
 
 #### Defined in
 
-[MultiSig.ts:7](https://github.com/klaytn/klaytn-service-sdk/blob/d936278/packages/dexs-starter-kit/core/MultiSig.ts#L7)
+[MultiSig.ts:7](https://github.com/kaiachain/kaia-service-sdk/blob/d936278/packages/dexs-starter-kit/core/MultiSig.ts#L7)
 
 ## Properties
 
@@ -47,7 +47,7 @@
 
 #### Defined in
 
-[MultiSig.ts:5](https://github.com/klaytn/klaytn-service-sdk/blob/d936278/packages/dexs-starter-kit/core/MultiSig.ts#L5)
+[MultiSig.ts:5](https://github.com/kaiachain/kaia-service-sdk/blob/d936278/packages/dexs-starter-kit/core/MultiSig.ts#L5)
 
 ## Methods
 
@@ -75,7 +75,7 @@ only registered owner on MULTISIG contract can execute this function
 
 #### Defined in
 
-[MultiSig.ts:34](https://github.com/klaytn/klaytn-service-sdk/blob/d936278/packages/dexs-starter-kit/core/MultiSig.ts#L34)
+[MultiSig.ts:34](https://github.com/kaiachain/kaia-service-sdk/blob/d936278/packages/dexs-starter-kit/core/MultiSig.ts#L34)
 
 ___
 
@@ -103,7 +103,7 @@ only registered owner on MULTISIG contract can execute this function
 
 #### Defined in
 
-[MultiSig.ts:58](https://github.com/klaytn/klaytn-service-sdk/blob/d936278/packages/dexs-starter-kit/core/MultiSig.ts#L58)
+[MultiSig.ts:58](https://github.com/kaiachain/kaia-service-sdk/blob/d936278/packages/dexs-starter-kit/core/MultiSig.ts#L58)
 
 ___
 
@@ -121,7 +121,7 @@ A getter function to return Multisig contract's instance
 
 #### Defined in
 
-[MultiSig.ts:79](https://github.com/klaytn/klaytn-service-sdk/blob/d936278/packages/dexs-starter-kit/core/MultiSig.ts#L79)
+[MultiSig.ts:79](https://github.com/kaiachain/kaia-service-sdk/blob/d936278/packages/dexs-starter-kit/core/MultiSig.ts#L79)
 
 ___
 
@@ -145,7 +145,7 @@ A function to check if given transactionId has got enought votes or not
 
 #### Defined in
 
-[MultiSig.ts:68](https://github.com/klaytn/klaytn-service-sdk/blob/d936278/packages/dexs-starter-kit/core/MultiSig.ts#L68)
+[MultiSig.ts:68](https://github.com/kaiachain/kaia-service-sdk/blob/d936278/packages/dexs-starter-kit/core/MultiSig.ts#L68)
 
 ___
 
@@ -173,7 +173,7 @@ only registered owner on MULTISIG contract & who has already voted the given tra
 
 #### Defined in
 
-[MultiSig.ts:46](https://github.com/klaytn/klaytn-service-sdk/blob/d936278/packages/dexs-starter-kit/core/MultiSig.ts#L46)
+[MultiSig.ts:46](https://github.com/kaiachain/kaia-service-sdk/blob/d936278/packages/dexs-starter-kit/core/MultiSig.ts#L46)
 
 ___
 
@@ -203,4 +203,4 @@ only registered owner on MULTISIG contract & who has already voted the given tra
 
 #### Defined in
 
-[MultiSig.ts:19](https://github.com/klaytn/klaytn-service-sdk/blob/d936278/packages/dexs-starter-kit/core/MultiSig.ts#L19)
+[MultiSig.ts:19](https://github.com/kaiachain/kaia-service-sdk/blob/d936278/packages/dexs-starter-kit/core/MultiSig.ts#L19)

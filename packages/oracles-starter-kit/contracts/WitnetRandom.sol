@@ -9,7 +9,7 @@ contract WitnetRandom {
     IWitnetRandomness public immutable witnetRandomness;
 
     /*
-     * Network: Klaytn Baobab
+     * Network: Kaia Kairos
      * WitnetRandomness: 0xb4b2e2e00e9d6e5490d55623e4f403ec84c6d33f
      **/
     constructor(IWitnetRandomness _witnetRandomness) {

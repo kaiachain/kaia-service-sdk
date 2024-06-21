@@ -1,6 +1,7 @@
 MIT License
 
-Copyright (c) 2023 Klaytn Foundation
+Copyright (c) 2024 Kaia DLT Foundation
+Copyright (c) 2023-2024 Klaytn Foundation
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

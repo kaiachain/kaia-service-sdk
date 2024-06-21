@@ -1,4 +1,4 @@
-[@klaytn/kss-dexs](../README.md) / [Modules](../modules.md) / Swap
+[@kaiachain/kss-dexs](../README.md) / [Modules](../modules.md) / Swap
 
 # Class: Swap
 
@@ -42,7 +42,7 @@
 
 #### Defined in
 
-[Swap.ts:8](https://github.com/klaytn/klaytn-service-sdk/blob/d936278/packages/dexs-starter-kit/core/Swap.ts#L8)
+[Swap.ts:8](https://github.com/kaiachain/kaia-service-sdk/blob/d936278/packages/dexs-starter-kit/core/Swap.ts#L8)
 
 ## Properties
 
@@ -52,7 +52,7 @@
 
 #### Defined in
 
-[Swap.ts:6](https://github.com/klaytn/klaytn-service-sdk/blob/d936278/packages/dexs-starter-kit/core/Swap.ts#L6)
+[Swap.ts:6](https://github.com/kaiachain/kaia-service-sdk/blob/d936278/packages/dexs-starter-kit/core/Swap.ts#L6)
 
 ___
 
@@ -62,7 +62,7 @@ ___
 
 #### Defined in
 
-[Swap.ts:5](https://github.com/klaytn/klaytn-service-sdk/blob/d936278/packages/dexs-starter-kit/core/Swap.ts#L5)
+[Swap.ts:5](https://github.com/kaiachain/kaia-service-sdk/blob/d936278/packages/dexs-starter-kit/core/Swap.ts#L5)
 
 ## Methods
 
@@ -89,7 +89,7 @@ A function to swap exact amount of KLAY for a given amount of Tokens.
 
 #### Defined in
 
-[Swap.ts:59](https://github.com/klaytn/klaytn-service-sdk/blob/d936278/packages/dexs-starter-kit/core/Swap.ts#L59)
+[Swap.ts:59](https://github.com/kaiachain/kaia-service-sdk/blob/d936278/packages/dexs-starter-kit/core/Swap.ts#L59)
 
 ___
 
@@ -116,7 +116,7 @@ A function to swap exact amount of Tokens for a given amount of KLAY.
 
 #### Defined in
 
-[Swap.ts:98](https://github.com/klaytn/klaytn-service-sdk/blob/d936278/packages/dexs-starter-kit/core/Swap.ts#L98)
+[Swap.ts:98](https://github.com/kaiachain/kaia-service-sdk/blob/d936278/packages/dexs-starter-kit/core/Swap.ts#L98)
 
 ___
 
@@ -143,7 +143,7 @@ A function to swap exact amount of Tokens for a given amount of Tokens.
 
 #### Defined in
 
-[Swap.ts:21](https://github.com/klaytn/klaytn-service-sdk/blob/d936278/packages/dexs-starter-kit/core/Swap.ts#L21)
+[Swap.ts:21](https://github.com/kaiachain/kaia-service-sdk/blob/d936278/packages/dexs-starter-kit/core/Swap.ts#L21)
 
 ___
 
@@ -161,7 +161,7 @@ A getter function to get WKLAY contract's address
 
 #### Defined in
 
-[Swap.ts:152](https://github.com/klaytn/klaytn-service-sdk/blob/d936278/packages/dexs-starter-kit/core/Swap.ts#L152)
+[Swap.ts:152](https://github.com/kaiachain/kaia-service-sdk/blob/d936278/packages/dexs-starter-kit/core/Swap.ts#L152)
 
 ___
 
@@ -188,7 +188,7 @@ A getter function to fetch instance of DexPair contract.
 
 #### Defined in
 
-[Swap.ts:143](https://github.com/klaytn/klaytn-service-sdk/blob/d936278/packages/dexs-starter-kit/core/Swap.ts#L143)
+[Swap.ts:143](https://github.com/kaiachain/kaia-service-sdk/blob/d936278/packages/dexs-starter-kit/core/Swap.ts#L143)
 
 ___
 
@@ -206,7 +206,7 @@ A getter function to return DexRouter contract's instance
 
 #### Defined in
 
-[Swap.ts:133](https://github.com/klaytn/klaytn-service-sdk/blob/d936278/packages/dexs-starter-kit/core/Swap.ts#L133)
+[Swap.ts:133](https://github.com/kaiachain/kaia-service-sdk/blob/d936278/packages/dexs-starter-kit/core/Swap.ts#L133)
 
 ___
 
@@ -233,7 +233,7 @@ A function to swap KLAYs for a given exact amount of Tokens.
 
 #### Defined in
 
-[Swap.ts:117](https://github.com/klaytn/klaytn-service-sdk/blob/d936278/packages/dexs-starter-kit/core/Swap.ts#L117)
+[Swap.ts:117](https://github.com/kaiachain/kaia-service-sdk/blob/d936278/packages/dexs-starter-kit/core/Swap.ts#L117)
 
 ___
 
@@ -260,7 +260,7 @@ A function to swap given amount of Tokens for exact amount of KLAYs.
 
 #### Defined in
 
-[Swap.ts:78](https://github.com/klaytn/klaytn-service-sdk/blob/d936278/packages/dexs-starter-kit/core/Swap.ts#L78)
+[Swap.ts:78](https://github.com/kaiachain/kaia-service-sdk/blob/d936278/packages/dexs-starter-kit/core/Swap.ts#L78)
 
 ___
 
@@ -287,4 +287,4 @@ A function to swap given amount of Tokens for exact amount of KLAYs.
 
 #### Defined in
 
-[Swap.ts:40](https://github.com/klaytn/klaytn-service-sdk/blob/d936278/packages/dexs-starter-kit/core/Swap.ts#L40)
+[Swap.ts:40](https://github.com/kaiachain/kaia-service-sdk/blob/d936278/packages/dexs-starter-kit/core/Swap.ts#L40)

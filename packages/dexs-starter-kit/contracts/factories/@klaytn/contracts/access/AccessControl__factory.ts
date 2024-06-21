@@ -7,7 +7,7 @@ import type { Provider } from "@ethersproject/providers";
 import type {
   AccessControl,
   AccessControlInterface,
-} from "../../../../@klaytn/contracts/access/AccessControl";
+} from "../../../../@kaiachain/contracts/access/AccessControl";
 
 const _abi = [
   {

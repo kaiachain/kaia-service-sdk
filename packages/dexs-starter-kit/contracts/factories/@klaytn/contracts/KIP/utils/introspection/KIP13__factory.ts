@@ -7,7 +7,7 @@ import type { Provider } from "@ethersproject/providers";
 import type {
   KIP13,
   KIP13Interface,
-} from "../../../../../../@klaytn/contracts/KIP/utils/introspection/KIP13";
+} from "../../../../../../@kaiachain/contracts/KIP/utils/introspection/KIP13";
 
 const _abi = [
   {

@@ -1,6 +1,6 @@
-[@klaytn/kss-dexs](README.md) / Modules
+[@kaiachain/kss-dexs](README.md) / Modules
 
-# @klaytn/kss-dexs
+# @kaiachain/kss-dexs
 
 ## Table of contents
 

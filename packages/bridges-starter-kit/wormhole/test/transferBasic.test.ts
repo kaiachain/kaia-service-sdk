@@ -7,7 +7,7 @@ describe("transfer", () => {
         const source = {
           token: "0x0FD3f122A9B6471928B60eeE73bF35D895C4Ee01",
           privatekey: "",
-          rpcUrl: "https://api.baobab.klaytn.net:8651",
+          rpcUrl: "https://public-en.kairos.node.kaia.io",
           coreBridge: "0x1830CC6eE66c84D2F177B94D544967c774E624cA",
           tokenBridge: "0xC7A13BE098720840dEa132D860fDfa030884b09A",
           wormholeChainId: "13" 

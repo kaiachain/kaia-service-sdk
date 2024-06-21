@@ -7,7 +7,7 @@ import type { Provider } from "@ethersproject/providers";
 import type {
   KAccessControl,
   KAccessControlInterface,
-} from "../../../../../@klaytn/contracts/KIP/access/KAccessControl";
+} from "../../../../../@kaiachain/contracts/KIP/access/KAccessControl";
 
 const _abi = [
   {

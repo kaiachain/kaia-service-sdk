@@ -6,7 +6,7 @@ const { deployMockContract, provider } = waffle
 !developmentChains.includes(network.name)
   ? describe.skip
   : describe('Unit Tests - WitnetPriceFeed', async function () {
-    // Price Feed Address, values can be obtained at https://docs.witnet.io/smart-contracts/witnet-data-feeds/addresses/klaytn-price-feeds
+    // Price Feed Address, values can be obtained at https://docs.witnet.io/smart-contracts/witnet-data-feeds/addresses/kaia-price-feeds
     let witnetPriceFeed
 
     beforeEach(async () => {

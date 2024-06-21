@@ -1,23 +1,24 @@
 {
-  "name": "@klaytn/kss-cli",
+  "name": "@kaiachain/kss-cli",
   "version": "1.0.0",
-  "description": "klaytn service sdk command line",
+  "description": "kaia service sdk command line",
   "bin": {
     "kss-cli": "./bin/kss-cli.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/klaytn/klaytn-service-sdk.git"
+    "url": "https://github.com/kaiachain/kaia-service-sdk.git"
   },
   "preferGlobal": true,
   "keywords": [
-    "klaytn",
+    "kaia",
+    "kaiachain",
     "kss-cli"
   ],
-  "author": "Klaytn Community <developer@klaytn.foundation>",
+  "author": "Kaia Community <developer@kaia.io>",
   "license": "MIT",
   "dependencies": {
-    "@klaytn/kss-oracles": "^1.0.0",
+    "@kaiachain/kss-oracles": "^1.0.0",
     "chalk": "^4.1.1",
     "commander": "^10.0.0",
     "figlet": "^1.5.2",

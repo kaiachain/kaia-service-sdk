@@ -1,13 +1,5 @@
-[![No Maintenance Intended](http://unmaintained.tech/badge.svg)](http://unmaintained.tech/)
-
-# NO LONGER MAINTAINED
-
-Since the launch of Kaia Blockchain this repository has been parked in favour of the new open-source projects in [Kaia's Github](https://github.com/kaiachain). Contributors have now moved there continuing with massive open-source contributions to our blockchain ecosystem. A big thank you to everyone who has contributed to this repository. For more information about Klaytn's chain merge with Finschia blockchain please refer to the launching of Kaia blockchain - [kaia.io](http://kaia.io/).
-
----
-
-![Logo](./KlaytnLogo.png)
-- [Klaytn Service SDK](#klaytn-service-sdk)
+![Logo](./KaiaLogo.svg)
+- [Kaia Service SDK](#kaia-service-sdk)
   - [Oracles Module](#oracles-module)
     - [Witnet](#witnet)
   - [Bridges Module](#bridges-module)
@@ -21,18 +13,18 @@ Since the launch of Kaia Blockchain this repository has been parked in favour of
     - [Requirement](#requirement)
     - [Steps to setup locally](#steps-to-setup-locally)
 - [Usage](#usage)
-  - [Want to Contribute to Klaytn Service SDK? ](#want-to-contribute-to-klaytn-service-sdk-)
+  - [Want to Contribute to Kaia Service SDK? ](#want-to-contribute-to-kaia-service-sdk-)
 
 <br/>
 
-# Klaytn Service SDK
-Klaytn Service SDK is a monorepo of all the services in the Klaytn ecosystem. Check out [Quick Usage](#quick-usage) to integrate the services in the dapp
+# Kaia Service SDK
+Kaia Service SDK is a monorepo of all the services in the Kaia ecosystem. Check out [Quick Usage](#quick-usage) to integrate the services in the dapp
 
 ## Oracles Module
 ### Witnet
 Implementation of the following features using the [Hardhat](https://hardhat.org/) development environment:
-- [Witnet Data Feeds on Klaytn](/packages/oracles-starter-kit/README.md#witnet-price-feeds)
-- [Witnet Randomness on Klaytn](/packages/oracles-starter-kit/README.md#witnet-randomness)
+- [Witnet Data Feeds on Kaia](/packages/oracles-starter-kit/README.md#witnet-price-feeds)
+- [Witnet Randomness on Kaia](/packages/oracles-starter-kit/README.md#witnet-randomness)
 
 
 ## Bridges Module
@@ -62,13 +54,13 @@ Integration of the following 5 DEX contracts:
 
 ## Quick Usage
 
-To use klaytn-service-sdk, you can import the below npm packages in an existing nodejs project. Instructions for importing the package and utilizing its features can be found in the readme provided in the links below.
+To use kaia-service-sdk, you can import the below npm packages in an existing nodejs project. Instructions for importing the package and utilizing its features can be found in the readme provided in the links below.
 
-- [@klaytn/kss-bridges-wormhole](https://www.npmjs.com/package/@klaytn/kss-bridges-wormhole) - Contains Wormhole integration
-- [@klaytn/kss-bridges-celer](https://www.npmjs.com/package/@klaytn/kss-bridges-celer) - Contains Celer integration 
-- [@klaytn/kss-dexs](https://www.npmjs.com/package/@klaytn/kss-dexs) - Contains Dexs integration
-- [@klaytn/kss-oracles](https://www.npmjs.com/package/@klaytn/kss-oracles) - Contains Oracles integration
-- [@klaytn/kss-cli](https://www.npmjs.com/package/@klaytn/kss-cli) - Contains CLI features
+- [@kaiachain/kss-bridges-wormhole](https://www.npmjs.com/package/@kaiachain/kss-bridges-wormhole) - Contains Wormhole integration
+- [@kaiachain/kss-bridges-celer](https://www.npmjs.com/package/@kaiachain/kss-bridges-celer) - Contains Celer integration 
+- [@kaiachain/kss-dexs](https://www.npmjs.com/package/@kaiachain/kss-dexs) - Contains Dexs integration
+- [@kaiachain/kss-oracles](https://www.npmjs.com/package/@kaiachain/kss-oracles) - Contains Oracles integration
+- [@kaiachain/kss-cli](https://www.npmjs.com/package/@kaiachain/kss-cli) - Contains CLI features
 
 ## Setup Locally
 
@@ -91,8 +83,8 @@ If you would like to explore current repository, please follow below instruction
 
 After installing all the requirements, run the following to setup locally:
 ```bash
-git clone https://github.com/klaytn/klaytn-service-sdk
-cd klaytn-service-sdk
+git clone https://github.com/kaiachain/kaia-service-sdk
+cd kaia-service-sdk
 ```
 then
 ```bash
@@ -109,9 +101,9 @@ npm i
 # Usage
 You can run the scripts from respective packages by `cd` into the packages. 
 
-## Want to Contribute to Klaytn Service SDK? <a id="want-to-contribute"></a>
+## Want to Contribute to Kaia Service SDK? <a id="want-to-contribute"></a>
 
-In line with our commitment to decentralization, all Klaytn codebase and its documentations are completely open source. Klaytn always welcomes your contribution. Anyone can view, edit, fix its contents and make suggestions. You can either create a pull request on GitHub or create a enhancement request. Make sure to check our [Contributor License Agreement (CLA)](https://gist.github.com/e78f99e1c527225637e269cff1bc7e49) first and there are also a few guidelines our contributors would check out before contributing:
+In line with our commitment to decentralization, all Kaia codebase and its documentations are completely open source. Kaia always welcomes your contribution. Anyone can view, edit, fix its contents and make suggestions. You can either create a pull request on GitHub or create a enhancement request. Make sure to check our [Contributor License Agreement (CLA)](https://gist.github.com/e78f99e1c527225637e269cff1bc7e49) first and there are also a few guidelines our contributors would check out before contributing:
 
 - [Contribution Guide](./CONTRIBUTING.md)
 - [License](./LICENSE)
