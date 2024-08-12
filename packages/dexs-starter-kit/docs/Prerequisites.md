@@ -11,5 +11,5 @@ fulfill the following prerequisites
    - StakingFactory
    - Some `KIP7` utility tokens e.g. atleast 3,4 Token contracts
 3. if you don't have already deployed the contracts, please deploy them using [this](https://github.com/kaiachain/open-dex-contracts/blob/dev/README.md) documentation
-4. if you need more details about flow of each above-mentioned DEX contracts please refer to `@kaiachain/dex-contracts` repository [here](https://github.com/kaiachain/open-dex-contracts/blob/dev/docs/dex-specification.md)
+4. if you need more details about flow of each above-mentioned DEX contracts please refer to `@kaiachain/open-dex-contracts` repository [here](https://github.com/kaiachain/open-dex-contracts/blob/dev/docs/dex-specification.md)
 5. if you just want to get already deployed DEX & util contracts, please check it out [here](https://github.com/kaiachain/open-dex-frontend/blob/dev/dex-config.example.json).

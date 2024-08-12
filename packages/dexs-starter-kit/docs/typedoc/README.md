@@ -1,7 +1,7 @@
 @kaiachain/kss-dexs / [Modules](modules.md)
 
 # DEX Starter Kit
-This module of Kaia-SDK includes the integration of [@kaiachain/dex-contracts](https://github.com/kaiachain/open-dex-contracts).
+This module of Kaia-SDK includes the integration of [@kaiachain/open-dex-contracts](https://github.com/kaiachain/open-dex-contracts).
 
 # How to setup locally
  `npm install`
