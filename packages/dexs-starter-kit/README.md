@@ -1,5 +1,5 @@
 # DEX Starter Kit
-This module includes the integration of [@kaiachain/dex-contracts](https://github.com/kaiachain/open-dex-contracts).
+This module includes the integration of [@kaiachain/open-dex-contracts](https://github.com/kaiachain/open-dex-contracts).
 
 # How to setup locally
  `npm install`

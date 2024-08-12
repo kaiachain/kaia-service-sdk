@@ -1,7 +1,7 @@
 {
   "name": "@kaiachain/kss-dexs",
-  "version": "1.0.0",
-  "description": "Includes dex-contracts integration & use-cases",
+  "version": "1.0.1",
+  "description": "Includes open-dex-contracts integration & use-cases",
   "exports": {
     ".": "./dist/core/index.js"
   },
